@@ -1,0 +1,102 @@
+
+.admin-login-container.data-v-fc608340 {
+	min-height: 100vh;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40rpx;
+}
+.login-card.data-v-fc608340 {
+	width: 100%;
+	max-width: 600rpx;
+	background: #fff;
+	border-radius: 24rpx;
+	padding: 60rpx 40rpx;
+	box-shadow: 0 20rpx 40rpx rgba(0, 0, 0, 0.1);
+}
+.title.data-v-fc608340 {
+	display: block;
+	text-align: center;
+	font-size: 48rpx;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 16rpx;
+}
+.subtitle.data-v-fc608340 {
+	display: block;
+	text-align: center;
+	font-size: 28rpx;
+	color: #666;
+	margin-bottom: 60rpx;
+}
+.input-group.data-v-fc608340 {
+	margin-bottom: 40rpx;
+}
+.label.data-v-fc608340 {
+	display: block;
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 16rpx;
+	font-weight: 500;
+}
+.input.data-v-fc608340 {
+	width: 100%;
+	height: 88rpx;
+	padding: 0 24rpx;
+	border: 2rpx solid #e5e5e5;
+	border-radius: 12rpx;
+	font-size: 32rpx;
+	background: #f8f8f8;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+.input.data-v-fc608340:focus {
+	border-color: #007dff;
+	background: #fff;
+}
+.login-btn.data-v-fc608340 {
+	width: 100%;
+	height: 88rpx;
+	background: linear-gradient(90deg, #007dff 0%, #00c6ff 100%);
+	color: #fff;
+	border: none;
+	border-radius: 12rpx;
+	font-size: 32rpx;
+	margin-top: 40rpx;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.login-btn.data-v-fc608340:hover:not([disabled]) {
+	background: linear-gradient(90deg, #0066cc 0%, #0099cc 100%);
+	transform: translateY(-2rpx);
+	box-shadow: 0 8rpx 16rpx rgba(0, 125, 255, 0.3);
+}
+.login-btn[disabled].data-v-fc608340 {
+	background: #e5e5e5;
+	color: #aaa;
+	cursor: not-allowed;
+	transform: none;
+	box-shadow: none;
+}
+.test-accounts.data-v-fc608340 {
+	margin-top: 60rpx;
+	padding: 30rpx;
+	background: #f0f8ff;
+	border-radius: 12rpx;
+	border-left: 6rpx solid #007dff;
+}
+.hint-title.data-v-fc608340 {
+	display: block;
+	font-size: 28rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 16rpx;
+}
+.hint-item.data-v-fc608340 {
+	display: block;
+	font-size: 26rpx;
+	color: #666;
+	margin-bottom: 8rpx;
+	font-family: 'Courier New', monospace;
+}

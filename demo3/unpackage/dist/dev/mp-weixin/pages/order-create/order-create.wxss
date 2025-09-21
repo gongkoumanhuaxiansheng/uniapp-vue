@@ -1,0 +1,127 @@
+
+.order-create-container.data-v-85f29094 {
+	  padding: 40rpx;
+	  background: #fff;
+	  min-height: 100vh;
+}
+.title.data-v-85f29094 {
+	  display: block;
+	  text-align: center;
+	  font-size: 40rpx;
+	  font-weight: bold;
+	  margin-bottom: 40rpx;
+	  color: #333;
+}
+.section-title.data-v-85f29094 {
+	  display: block;
+	  font-size: 32rpx;
+	  font-weight: 600;
+	  margin-bottom: 24rpx;
+	  color: #333;
+}
+	
+	/* 图片上传区域 */
+.upload-section.data-v-85f29094 {
+	  margin-bottom: 40rpx;
+}
+.image-list.data-v-85f29094 {
+	  display: flex;
+	  flex-wrap: wrap;
+}
+.image-item.data-v-85f29094,
+	.upload-btn.data-v-85f29094 {
+	  margin-right: 20rpx;
+	  margin-bottom: 20rpx;
+}
+.image-item.data-v-85f29094 {
+	  position: relative;
+	  width: 160rpx;
+	  height: 160rpx;
+	  border-radius: 12rpx;
+	  overflow: hidden;
+	  background: #f8f8f8;
+}
+.preview-image.data-v-85f29094 {
+	  width: 100%;
+	  height: 100%;
+}
+.delete-btn.data-v-85f29094 {
+	  position: absolute;
+	  top: 8rpx;
+	  right: 8rpx;
+	  width: 36rpx;
+	  height: 36rpx;
+	  background: rgba(0, 0, 0, 0.6);
+	  color: #fff;
+	  border-radius: 50%;
+	  text-align: center;
+	  line-height: 36rpx;
+	  font-size: 24rpx;
+	  cursor: pointer;
+}
+.delete-btn.data-v-85f29094:hover {
+	  background: rgba(255, 0, 0, 0.8);
+}
+.upload-btn.data-v-85f29094 {
+	  width: 160rpx;
+	  height: 160rpx;
+	  border: 2rpx dashed #e5e5e5;
+	  border-radius: 12rpx;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  background: #f8f8f8;
+	  cursor: pointer;
+}
+.upload-btn.data-v-85f29094:hover {
+	  border-color: #007dff;
+	  background: #f0f8ff;
+}
+.plus-icon.data-v-85f29094 {
+	  font-size: 48rpx;
+	  color: #999;
+	  margin-bottom: 8rpx;
+}
+.upload-text.data-v-85f29094 {
+	  font-size: 24rpx;
+	  color: #999;
+}
+	
+	/* 地址填写区域 */
+.address-section.data-v-85f29094 {
+	  margin-bottom: 60rpx;
+}
+.address-input.data-v-85f29094 {
+	  width: 100%;
+	  min-height: 200rpx;
+	  padding: 24rpx;
+	  border: 1rpx solid #e5e5e5;
+	  border-radius: 12rpx;
+	  background: #f8f8f8;
+	  font-size: 28rpx;
+	  box-sizing: border-box;
+}
+	
+	/* 提交按钮 */
+.submit-btn.data-v-85f29094 {
+	  width: 100%;
+	  height: 88rpx;
+	  background: linear-gradient(90deg, #007dff 0%, #00c6ff 100%);
+	  color: #fff;
+	  border: none;
+	  border-radius: 12rpx;
+	  font-size: 32rpx;
+	  cursor: pointer;
+	  transition: all 0.3s ease;
+}
+.submit-btn.data-v-85f29094:hover:not([disabled]) {
+	  background: linear-gradient(90deg, #0066cc 0%, #0099cc 100%);
+	  transform: translateY(-2rpx);
+	  box-shadow: 0 8rpx 16rpx rgba(0, 125, 255, 0.3);
+}
+.submit-btn[disabled].data-v-85f29094 {
+	  background: #e5e5e5;
+	  color: #aaa;
+	  cursor: not-allowed;
+}

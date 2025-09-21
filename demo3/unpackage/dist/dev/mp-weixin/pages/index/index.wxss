@@ -1,0 +1,77 @@
+
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+.logo {
+		height: 200rpx;
+		width: 200rpx;
+		margin-top: 200rpx;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50rpx;
+}
+.text-area {
+		display: flex;
+		justify-content: center;
+}
+.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+}
+.action-buttons {
+		margin-top: 80rpx;
+		display: flex;
+		flex-direction: column;
+		width: 600rpx;
+}
+.action-btn {
+		width: 100%;
+		height: 88rpx;
+		border: none;
+		border-radius: 12rpx;
+		font-size: 32rpx;
+		margin-bottom: 30rpx;
+		cursor: pointer;
+		transition: all 0.3s ease;
+}
+.primary {
+		background: linear-gradient(90deg, #007dff 0%, #00c6ff 100%);
+		color: #fff;
+}
+.primary:hover {
+		background: linear-gradient(90deg, #0066cc 0%, #0099cc 100%);
+		transform: translateY(-2rpx);
+		box-shadow: 0 8rpx 16rpx rgba(0, 125, 255, 0.3);
+}
+.secondary {
+		background: #fff;
+		color: #007dff;
+		border: 2rpx solid #007dff;
+}
+.secondary:hover {
+		background: #f0f8ff;
+		transform: translateY(-2rpx);
+		box-shadow: 0 8rpx 16rpx rgba(0, 125, 255, 0.2);
+}
+.admin-login {
+		background: linear-gradient(90deg, #ff9500 0%, #ff6b00 100%);
+		color: #fff;
+}
+.admin-login:hover {
+		background: linear-gradient(90deg, #e6850e 0%, #e65a00 100%);
+		transform: translateY(-2rpx);
+		box-shadow: 0 8rpx 16rpx rgba(255, 149, 0, 0.3);
+}
+.logout {
+		background: #fff;
+		color: #ff4757;
+		border: 2rpx solid #ff4757;
+}
+.logout:hover {
+		background: #fff5f5;
+		transform: translateY(-2rpx);
+		box-shadow: 0 8rpx 16rpx rgba(255, 71, 87, 0.2);
+}

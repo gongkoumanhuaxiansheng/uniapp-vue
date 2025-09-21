@@ -1,0 +1,28 @@
+{
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF", 
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabs/home.png",
+				"selectedIconPath": "static/tabs/home-active.png"
+			},
+			{
+				"pagePath": "pages/order-create/order-create", 
+				"text": "创建订单",
+				"iconPath": "static/tabs/order.png",
+				"selectedIconPath": "static/tabs/order-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的", 
+				"iconPath": "static/tabs/my.png",
+				"selectedIconPath": "static/tabs/my-active.png"
+			}
+		]
+	}
+}
